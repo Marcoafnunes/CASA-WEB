@@ -1,0 +1,130 @@
+.title {
+    color: #FFFFFF;
+    font-size: 45px;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 20px!important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.boxRegister {
+    width: 600px;
+    height: 850px;
+    background-color: rgba(2, 21, 50, 0.75);
+    border-radius: 40px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.register-form{
+    height: 800px;
+    max-width: 600px;
+    opacity: 200%;
+    padding-top: 0px;
+}
+
+.register-form > .ant-form-item{
+    width: 100%!important;
+}
+
+.label {
+    color: #FFFFFF;
+    font-size: 15px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixaRegister {
+    padding-top: 10px;
+    border-radius: 100px;
+    height: 40px;
+}
+
+.textTermos {
+    color: #FFFFFF;
+}
+
+.login-form-button-register {
+    width: 100%;
+    height: 65px;
+    background-color: #33FFAD;
+    border-radius: 100px;
+    color: #707070;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    border-color: transparent!important;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.login-form-button-register:hover {
+    background-color: #24a772;
+    color: #FFFFFF;
+
+}
+.login-form-button-register>a {
+    color: white!important;
+    font-weight: bold;
+
+}
+.alreadyText {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ant-form-item-control{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------- Media Queries ----------- */
+@media screen and (max-width: 590px) {
+    .boxRegister {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        display: unset;
+        flex-direction: unset;
+        justify-content: unset;
+        top: 0;
+        left: 0;
+        -ms-transform: unset;
+        transform: unset;
+    }
+
+    .register-form {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .title {
+        padding-top: 20%;
+    }
+
+    .alreadyText {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-height: 970px) {
+    .boxRegister {
+        height: fit-content;
+    }
+
+}
+
+
+

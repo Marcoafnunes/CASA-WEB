@@ -1,0 +1,36 @@
+.ant-table table {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+    
+}
+.ant-layout>.ant-layout{
+    width: 50%!important;
+}
+
+.ant-table-thead > tr > th {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #f0f0f0;
+
+}
+
+tr:nth-child(even) {
+    background: #daf1ff!important ;
+}
+tr:nth-child(even)::selection {
+    background: #daf1ff!important ;
+}
+tr:nth-child(even):hover {
+    background: #daf1ff!important ;
+}
+.ant-table-cell::selection{
+    color: black!important;
+}
+
+tr:nth-child(odd) {
+    background: #ffffff;
+}
+.ant-table-selection-column{
+    padding-left: 25px!important;
+}

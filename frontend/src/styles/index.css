@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.site-form-item-icon {
+  color: black;
+}
+
+.dashLogout{
+  background-color: red;
+  color: white;
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) { 
+  /* and (-webkit-min-device-pixel-ratio: 1.5) */
+    .login-form {
+      height: 300px;
+      width: 500px;
+    }
+    .login-form-forgot {
+      float: right;
+    }
+    .ant-col-rtl .login-form-forgot {
+      float: left;
+    }
+    .login-form-button {
+      width: 100%;
+    }
+  }
+
+/* ----------- Galaxy Fold ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 280px) 
+  and (max-height: 653px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .login-form {
+      height: 400px;
+      max-width: 250px;
+    }
+    .login-form-forgot {
+      float: right;
+    }
+    .ant-col-rtl .login-form-forgot {
+      float: left;
+    }
+    .login-form-button {
+      width: 100%;
+    }
+    
+    .register-form {
+      width: 210px;
+      height: 550px;
+    }
+  }
+

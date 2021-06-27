@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78f03175.chunk.css",
+    "main.js": "/static/js/main.51f51930.chunk.js",
+    "main.js.map": "/static/js/main.51f51930.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.40133d0c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.40133d0c.js.map",
+    "static/css/2.552f18a7.chunk.css": "/static/css/2.552f18a7.chunk.css",
+    "static/js/2.87e895f8.chunk.js": "/static/js/2.87e895f8.chunk.js",
+    "static/js/2.87e895f8.chunk.js.map": "/static/js/2.87e895f8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bb88a38ba61fbf80084607ce9b481f73.js": "/precache-manifest.bb88a38ba61fbf80084607ce9b481f73.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.552f18a7.chunk.css.map": "/static/css/2.552f18a7.chunk.css.map",
+    "static/css/main.78f03175.chunk.css.map": "/static/css/main.78f03175.chunk.css.map",
+    "static/js/2.87e895f8.chunk.js.LICENSE.txt": "/static/js/2.87e895f8.chunk.js.LICENSE.txt",
+    "static/media/blurporto.png": "/static/media/blurporto.cfeb32ed.png",
+    "static/media/chart.e2435cdd.svg": "/static/media/chart.e2435cdd.svg",
+    "static/media/home.png": "/static/media/home.4e53f9d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40133d0c.js",
+    "static/css/2.552f18a7.chunk.css",
+    "static/js/2.87e895f8.chunk.js",
+    "static/css/main.78f03175.chunk.css",
+    "static/js/main.51f51930.chunk.js"
+  ]
+}

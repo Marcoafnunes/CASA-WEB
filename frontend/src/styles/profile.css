@@ -1,0 +1,96 @@
+.boxProfile{
+    width: 50%;
+    height: fit-content;
+    background-color: #1b2c46;
+    border-radius: 40px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    position: absolute;
+    top: 50%; left: 52%;
+    transform: translate(-50%,-50%);
+}
+
+.login-form-profile {
+    margin: auto;
+    font-size: 20px;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.login-form-profile > .ant-form-item{
+    width: 100%!important;
+}
+
+.login-form-profile>div>div>div>div {
+    display: flex;
+    align-items: center;
+}
+.login-form-profile>div>span {
+    width: 100%;
+    padding-left: 2%;
+}
+
+.caixaPerfil{
+    width: 100%;
+    border-radius: 100px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    height: 45px;
+    margin-top: 2%;
+}
+
+.update-button{
+    width: 80%;
+    height: 45px;
+    background-color: #33FFAD;
+    border-radius: 100px;
+    color: white;
+    border-color: transparent!important;
+    margin: auto;
+    bottom: 30px;
+    font-size: 20px;
+    top: 30px;
+    margin-bottom: 70px;
+ }
+ .update-button:hover{
+    background-color: #24a772;
+ }
+ .update-button:focus{
+    background-color: #24a772!important;
+ }
+
+
+ .update-button>b {
+    color: white!important;
+    font-weight:bolder!important;
+}
+.update-button>b:focus{
+    color: white!important;
+    font-weight:bolder!important;
+}
+
+.ant-btn::before{
+    background: #33FFAD!important;
+}
+.avatarPic{
+    margin: auto;
+    margin-top: 40px;
+}
+
+.icon-edit{
+    font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+
+  }
+@media screen and (max-width: 768px) {
+    .boxProfile{
+        width: 70%;
+        left: 55%;
+    }
+  }
+
+

@@ -1,0 +1,66 @@
+.head{
+    background-color: #EFEFEF;
+    height: 80px;
+    display: block;
+    display: flex;
+    align-items: center
+}
+
+.titleHead{
+    font-size: 60px;
+    margin-left: 1%;
+    color: #494949;
+}
+
+.buttonImprimir{
+    width: 150px;
+    margin-left: 55%;
+    margin-right: 50px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.buttonExportar{
+    width: 150px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.buttonEliminar{
+    width: 150px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border-color: #a3a2a2;
+    background-color: red;
+    color: white;
+}
+
+.butttonAdicionar{
+    border-radius: 10px;
+    border-color: dodgerblue;
+    background-color: #3c9c3c;
+    color: white;
+}
+
+.buttonEdit{
+    border-color: white;
+    float: right;
+}
+.ant-table table {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.ant-table-thead > tr > th {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 10px solid #f0f0f0;
+    -webkit-transition: background 0.3s ease;
+}
+
+@media print {
+    @page { size: initial}
+}
+
